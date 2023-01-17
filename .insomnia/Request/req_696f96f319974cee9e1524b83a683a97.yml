@@ -1,0 +1,33 @@
+_id: req_696f96f319974cee9e1524b83a683a97
+type: Request
+parentId: fld_5012f00cde254bc493c40a027d0b9071
+modified: 1669207609691
+created: 1660130585982
+url: http://localhost:4000/v1/meetings/303b9ff5-c1e6-4a51-8256-af0837e484ca
+name: ""
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"auto_join": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3d5b6d3158094d1fa5d81714d86f963a
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1660130585982
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

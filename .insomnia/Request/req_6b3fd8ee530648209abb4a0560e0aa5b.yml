@@ -1,0 +1,40 @@
+_id: req_6b3fd8ee530648209abb4a0560e0aa5b
+type: Request
+parentId: fld_54bd08183fbd494e9a0685b6925bca2a
+modified: 1669881154895
+created: 1659349365339
+url: http://localhost:4000/v1/users
+name: ""
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"title": null,
+    	"first_name": "Nirav",
+    	"last_name": "Tailor",
+    	"telephone": null,
+    	"email": "a@tailornirav.tech",
+    	"username": "a@tailornirav.tech",
+    	"locale": null,
+    	"platform_oauth_token": [{ "platform": "google", "access_token": "token", "refresh_token": "token" , "calendar_id": "id" }]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_19f16c4e721541c7b8618392e61ece4b
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: abc
+  disabled: false
+metaSortKey: -1659348835357.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

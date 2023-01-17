@@ -1,0 +1,25 @@
+_id: req_b84511a2b87a449cbe2fc8155af36cef
+type: Request
+parentId: fld_3aec32a9d3b446d99bdbf6d93bab6995
+modified: 1670312224419
+created: 1659355242228
+url: http://localhost:4000/v1/recordings/63891ca5df07abadf4b886c9
+name: ""
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659355242228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

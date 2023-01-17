@@ -1,0 +1,14 @@
+_id: env_ffe84b3775154820a6732edc8655ba80
+type: Environment
+parentId: env_a58c7c33b64e56c2f538e3cfa0eb6eab8e770e5e
+modified: 1668157248875
+created: 1659352543571
+name: "1"
+data:
+  baseUrl: http://localhost:4000/v1/auth/a@beekle.ai
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1659352543571

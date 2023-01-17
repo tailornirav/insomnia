@@ -1,0 +1,25 @@
+_id: req_c08cb08cd0054603aa4ebc60e0da5b51
+type: Request
+parentId: fld_3aec32a9d3b446d99bdbf6d93bab6995
+modified: 1669881202160
+created: 1661502405968
+url: http://localhost:4000/v1/recordings/6371beff317ba18a2d1b0f18/restore
+name: http://localhost:4000/v1/recordings/6371beff317ba18a2d1b0f18/restore
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1661502405968
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_027d65afeb564255a15c616a26e86d36
+type: Request
+parentId: fld_c57aa2ad7b9345f48f40eb3e4667273c
+modified: 1669212624704
+created: 1662465370673
+url: http://localhost:4000/v1/admin/invite
+name: ""
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "me@tailornirav.tech",
+    	"username": "me@tailornirav.tech",
+    	"first_name": "Nirav",
+    	"last_name": "Tailor"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_92186f422653433891fb55239c731550
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1662470426581
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

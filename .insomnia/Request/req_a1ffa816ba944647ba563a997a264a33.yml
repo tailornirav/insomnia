@@ -1,0 +1,34 @@
+_id: req_a1ffa816ba944647ba563a997a264a33
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1665926818690
+created: 1665923123324
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/highlights/634bfadec33977b8fd50d868
+name: Update Highlight
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "0",
+    	"start_ms": 0,
+    	"end_ms": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665923123324
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

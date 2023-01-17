@@ -1,0 +1,26 @@
+_id: req_721c003d3e134585937cc3891a1f8a5b
+type: Request
+parentId: fld_107e6936feae475a9b5ce00e78ac9984
+modified: 1661517033687
+created: 1659352018397
+url: http://localhost:4000/v1/tiers
+name: http://localhost:4000/v1/tiers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  disabled: false
+metaSortKey: -1659352018397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

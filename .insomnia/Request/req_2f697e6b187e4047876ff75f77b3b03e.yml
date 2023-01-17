@@ -1,0 +1,25 @@
+_id: req_2f697e6b187e4047876ff75f77b3b03e
+type: Request
+parentId: fld_c57aa2ad7b9345f48f40eb3e4667273c
+modified: 1667826761106
+created: 1666334712426
+url: http://localhost:4000/v1/admin
+name: New Request
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+metaSortKey: -1666334712426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

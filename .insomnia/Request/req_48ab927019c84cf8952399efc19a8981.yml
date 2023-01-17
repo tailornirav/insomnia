@@ -1,0 +1,25 @@
+_id: req_48ab927019c84cf8952399efc19a8981
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1665929161528
+created: 1665924545263
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/notes/634bfd93abd811f747837be3
+name: Delete Note
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665918082288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

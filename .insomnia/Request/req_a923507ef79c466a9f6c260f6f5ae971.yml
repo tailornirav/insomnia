@@ -1,0 +1,25 @@
+_id: req_a923507ef79c466a9f6c260f6f5ae971
+type: Request
+parentId: wrk_90e115ef2ee14aa3ace5916bc4803836
+modified: 1669301799858
+created: 1659348096993
+url: http://localhost:4000/v1/auth?email=dineshkumar.rangasamy@tekafforde.com
+name: /auth
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: abc
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1659348096993
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

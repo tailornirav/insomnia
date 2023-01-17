@@ -1,0 +1,34 @@
+_id: req_425dceab3851402c80f96aecdb2ab12a
+type: Request
+parentId: fld_5012f00cde254bc493c40a027d0b9071
+modified: 1669207494088
+created: 1659354398385
+url: http://localhost:4000/v1/meetings/fdbcaab4-5b63-4f39-8af0-7b090ee607c2k
+name: ""
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"participants": ["Demo", "Participants", "That", "Has", "Joined", "And", "The", "Count"],
+    	"status": "Progress"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c18f2f94bc846b9ad502773b6c079de
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659354398385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_7c47c695fd924b52a334c463e995e2c4
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1665929146060
+created: 1665921782518
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/highlights/634bfadec33977b8fd50d868
+name: Delete Highlight
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665921782518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

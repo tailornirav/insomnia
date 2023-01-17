@@ -1,0 +1,32 @@
+_id: req_d710390622da48db9099036a09c79cd7
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1667827165974
+created: 1665924481754
+url: http://localhost:4000/v1/recordings/632592d930a2bb4752c85c36/notes
+name: Add Note
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "443"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1664265030639.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

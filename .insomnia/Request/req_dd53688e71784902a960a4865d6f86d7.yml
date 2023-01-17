@@ -1,0 +1,39 @@
+_id: req_dd53688e71784902a960a4865d6f86d7
+type: Request
+parentId: fld_54bd08183fbd494e9a0685b6925bca2a
+modified: 1669200537632
+created: 1660566110738
+url: http://localhost:4000/v1/users/me/settings
+name: http://localhost:4000/v1/users/me/settings
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"user_id": "1",
+    	"preferences": [],
+    	"domain_settings": [],
+    	"vocabulary": [],
+    	"participants_notification": false,
+    	"participants_notification_message": "",
+    	"auto_join_settings": "{'selected_option': 'xxx', 'include_words': '[xxx,xxx,xxx]', 'exclude_words': '[xxx,xxx,xxx]'}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_deac7d598e0044fe840526fc8e1ee95d
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659349525221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

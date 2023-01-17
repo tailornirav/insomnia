@@ -1,0 +1,32 @@
+_id: req_060224c503c547d4ad51a411772c8abe
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1667827257960
+created: 1665926016307
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/notes/634c1069db95713b41dbbbfd/comments
+name: Add Comment to notes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "hello world!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665924423990
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

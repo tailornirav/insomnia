@@ -1,0 +1,40 @@
+_id: req_f82f1534c6844bd89e5e5d38adc9777c
+type: Request
+parentId: fld_3aec32a9d3b446d99bdbf6d93bab6995
+modified: 1669886841284
+created: 1668605222179
+url: http://localhost:4000/v1/recordings/upload
+name: http://localhost:4000/v1/recordings/upload
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_87575a8537c94562a32797d16446cef9
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/tailor/Downloads/video1396201834 (online-video-cutter.com).wav
+    - id: pair_0b3a7555d2dc433a9bac1634c321576d
+      name: details
+      value: '[{"title": "Transcription", "time": "2022-11-23T09:30:00.000Z",
+        "duration": "10"}]'
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+metaSortKey: -1661955862375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

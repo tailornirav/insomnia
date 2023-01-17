@@ -1,0 +1,25 @@
+_id: req_122302cab18044dda81a44cedcd9f613
+type: Request
+parentId: fld_3aec32a9d3b446d99bdbf6d93bab6995
+modified: 1669206233383
+created: 1661681588568
+url: http://localhost:4000/v1/recordings?type=trash
+name: Trash
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659355013504.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

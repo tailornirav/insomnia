@@ -1,0 +1,33 @@
+_id: req_45cfae96807e47078e9f65aa987c771f
+type: Request
+parentId: fld_c57aa2ad7b9345f48f40eb3e4667273c
+modified: 1666334752126
+created: 1662470426656
+url: http://localhost:4000/v1/admin/block?email=b@beekle.ai
+name: ""
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"block": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20d0cc3c8a4e43f49e2b3ac8d1494a8b
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1662470426656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_294819507d844f5491de9457fc627e1d
+type: Request
+parentId: fld_c7cf8ccb3a194d90bcb27cb70a1f22fb
+modified: 1661517084159
+created: 1659352752396
+url: https://localhost:4000/v1/tenants/:id
+name: ""
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1659352752396
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

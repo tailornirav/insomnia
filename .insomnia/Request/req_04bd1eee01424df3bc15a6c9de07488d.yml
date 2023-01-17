@@ -1,0 +1,38 @@
+_id: req_04bd1eee01424df3bc15a6c9de07488d
+type: Request
+parentId: fld_c7cf8ccb3a194d90bcb27cb70a1f22fb
+modified: 1669211396167
+created: 1659352356232
+url: http://localhost:4000/v1/tenants
+name: ""
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"name": "Some Random Organization",
+    		"email": "business@beekle.ai",
+    		"address": "Demo Address",
+    		"industry": "Business Industry",
+    		"tier_id": 3,
+    		"api_key": null
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_696b2beb9ff4401d9ebb3dc5214adfc1
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659352356232
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

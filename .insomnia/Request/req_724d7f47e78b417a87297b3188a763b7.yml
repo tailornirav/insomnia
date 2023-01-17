@@ -1,0 +1,25 @@
+_id: req_724d7f47e78b417a87297b3188a763b7
+type: Request
+parentId: fld_5012f00cde254bc493c40a027d0b9071
+modified: 1661934675236
+created: 1659354551392
+url: http://localhost:4000/v1/meetings/2a9462be-9b85-42d9-97b4-0af2021bd8b5
+name: ""
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659354551392
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

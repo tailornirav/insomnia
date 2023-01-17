@@ -1,0 +1,34 @@
+_id: req_46eab9b99a7e4cad993152ca87aa80fc
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1667827180355
+created: 1665914382058
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/highlights
+name: Add Highlight
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "4",
+    	"start_ms": 3,
+    	"end_ms": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665914382058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

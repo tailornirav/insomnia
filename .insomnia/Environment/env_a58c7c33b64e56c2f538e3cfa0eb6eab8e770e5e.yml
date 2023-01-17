@@ -1,0 +1,14 @@
+_id: env_a58c7c33b64e56c2f538e3cfa0eb6eab8e770e5e
+type: Environment
+parentId: wrk_90e115ef2ee14aa3ace5916bc4803836
+modified: 1659352549071
+created: 1659348096985
+name: Base Environment
+data:
+  baseUrl: http:localhost:4000/auth/demo@gmail.com
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1659348096985

@@ -1,0 +1,41 @@
+_id: req_9506831df8ca4b469f618362df73f689
+type: Request
+parentId: fld_5012f00cde254bc493c40a027d0b9071
+modified: 1669208333189
+created: 1659352932831
+url: http://localhost:4000/v1/meetings
+name: ""
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "This is the demo meeting",
+    	"description": "Demo Description",
+    	"participants": ["Demo", "Participants", "That", "Has", "Joined", "And", "The", "Count", "Tinker"],
+    	"type": "Demo Type",
+    	"start_time": "2022-11-24T09:30:00.000Z",
+    	"end_time": "2022-11-24T10:00:00.000Z",
+    	"meeting_status": "Completed",
+    	"platform_calendar_id": "calendar-id-4",
+    	"platform_event_id": "this-might-be-the-id-4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_56b96e97f51045b99bb6e1d455481692
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659352932831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

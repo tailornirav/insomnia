@@ -1,0 +1,25 @@
+_id: req_e2bd26cd870641dab1892a11cdf32320
+type: Request
+parentId: fld_54bd08183fbd494e9a0685b6925bca2a
+modified: 1661931251567
+created: 1660114246476
+url: http://localhost:4000/v1/users/me/subscription
+name: ""
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1659349525071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

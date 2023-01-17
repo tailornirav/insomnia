@@ -1,0 +1,26 @@
+_id: req_24db9bb39540409eabd8acb0f46fb284
+type: Request
+parentId: fld_c57aa2ad7b9345f48f40eb3e4667273c
+modified: 1669212612355
+created: 1661836553699
+url: http://localhost:4000/v1/admin/team
+name: http://localhost:4000/v1/admin/team
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1662470426556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

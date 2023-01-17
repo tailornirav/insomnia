@@ -1,0 +1,32 @@
+_id: req_538ddf9867054e4fa7cea4516421d28d
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1667827275850
+created: 1665925724656
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/highlights/634bfaeac33977b8fd50dd56/comments
+name: Add Comment to highlight
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665925724656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

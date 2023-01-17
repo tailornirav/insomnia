@@ -1,0 +1,33 @@
+_id: req_bb0ab010d6b348069372691d6da6feb1
+type: Request
+parentId: fld_c57aa2ad7b9345f48f40eb3e4667273c
+modified: 1662790931310
+created: 1662469563966
+url: http://localhost:4000/v1/admin/change_invitation?email=c@beekle.ai
+name: ""
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"invite": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2aa1b83cf36f42c38b9ed443a490e1dd
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1662470426606
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

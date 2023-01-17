@@ -1,0 +1,25 @@
+_id: req_d81915d353224bbfa75dabe457574c7d
+type: Request
+parentId: fld_4f321cbc613a4701b7801ad865bf83f1
+modified: 1665926998781
+created: 1665926982190
+url: http://localhost:4000/v1/recordings/632592aa30a2bb4752c85c34/highlights/634bfaeac33977b8fd50dd56/comments/634c06eed8d45dd7bbfb2b64
+name: Delete Comment of Highlight
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1665926260117.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

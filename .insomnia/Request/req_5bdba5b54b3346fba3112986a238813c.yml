@@ -1,0 +1,35 @@
+_id: req_5bdba5b54b3346fba3112986a238813c
+type: Request
+parentId: fld_54bd08183fbd494e9a0685b6925bca2a
+modified: 1669211468979
+created: 1659348903803
+url: http://localhost:4000/v1/users/me
+name: ""
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"role_id": 5,
+    	"tenant_id": 4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b913fd77f0e147a9ac40e500e3a9b257
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1659348903803
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

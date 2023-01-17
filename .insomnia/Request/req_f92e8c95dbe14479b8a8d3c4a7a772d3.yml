@@ -1,0 +1,25 @@
+_id: req_f92e8c95dbe14479b8a8d3c4a7a772d3
+type: Request
+parentId: wrk_90e115ef2ee14aa3ace5916bc4803836
+modified: 1670402256389
+created: 1669977390483
+url: http://localhost:4000/v1/zoom
+name: Zoom
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1669977390483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

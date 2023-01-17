@@ -1,0 +1,26 @@
+_id: req_5528079f2e6b48f1bb7195b1f1cdf9cc
+type: Request
+parentId: fld_54bd08183fbd494e9a0685b6925bca2a
+modified: 1670340044074
+created: 1659349525021
+url: http://localhost:4000/v1/users/exists?email=dineshkumar.rangasamy@tekafforde.com
+name: ""
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_a923507ef79c466a9f6c260f6f5ae971',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1659348835332.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
